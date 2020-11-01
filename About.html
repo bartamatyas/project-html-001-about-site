@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="/Assets/CSS/button.css">
+</head>
+<body>
+    <header>
+        <h1>About</h1>
+    </header>
+    <nav>
+        <ul class="navbar">
+            <li class="navbaritems"><a class="navlinks" href="/Home.html">Home</a></li>
+            <li class="navbaritems"><a class="navlinks" href="/Works.html">Works</a></li>
+            <li class="navbaritems"><a class="navlinks" href="/Gallery.html">Gallery</a></li>
+            <li class="navbaritems"><a class="navlinks" href="/About.html">About</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h4>Proper introduction</h4>
+        <p>
+            What he has done so far education wise and professionally after highschool:
+            <ol>
+                <li>He went to college to get a degree in a field he wasn't very interested in because he felt pressured to do something with his life, but unfortunately dropped out after he was unprepeared to handle the stress that comes with college life.</li>
+                <li>After his initial faliure he went to work, but found no joy in it.</li>
+                <li>He went back to college just to fail once more reenforcing his misguided ideas of his own inadequacy.</li>
+                <li>He went back to work without any real plan for a future.</li>
+                <li>A pandemic struck the world which left him without work leaving him truly hopeless.</li>
+            </ol>
+            In his freetime he enjoys
+            <ul>
+                <li>Drawing</li>
+                <li>Listening to music</li>
+                <li>Or doing anything to distract himself really</li>
+            </ul>
+        </p>
+        <img src="/Assets/Imgs/anonymus szobor.jpg" alt="Picture of subject">
+    </main>
+    <section>
+        <form action="mailto:l3.matyi@gmail.com" method="post" enctype="text/plain">
+            Name:<br>
+            <input minlength="6" required type="text" name="name"><br>
+            E-mail:<br>
+            <input pattern="[^ @]*@[^ @]*" required type="text" name="mail"><br>
+            Message:<br>
+            <input minlength="20" required type="text" name="message" size="45"><br><br>
+            <input type="submit" value="Send">
+            </form>
+    </section>
+    <footer>
+        <div>
+            <button onclick="topFunction()" id="UpButton" title="To the top of the page">To the top</button>
+        </div>
+    </footer>
+    <script src="/Assets/Javascript/button.js"></script>
+</body>
+</html>

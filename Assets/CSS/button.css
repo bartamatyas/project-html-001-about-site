@@ -1,0 +1,77 @@
+  #UpButton {
+      float: right;
+      margin: 10px;
+      border-radius: 5px;
+      outline: none;
+  }
+
+  #UpButton:hover {
+    background-color: rgb(75, 72, 72);;
+    color: white;
+  }
+  .box {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 1%;
+    width: 30%;
+
+  }
+  .image {
+      max-width: 1024px;
+  }
+  .galleryImg {
+      width: 25%;
+      margin: 3%;
+      box-shadow: 5px 5px 5px 5px;
+  }
+
+  .navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(24, 22, 22);
+  }
+  
+  .navbaritems {
+    float: left;
+  }
+  
+  .navlinks {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .navlinks:hover {
+    background-color: rgb(75, 72, 72);
+  }
+  
+  body {
+      background-color: gray;
+  }
+
+  .gallerydiv{
+    display: block;
+  }
+
+  .works {
+    width: 45%;
+    display: inline-block;
+  }
+  @media screen and (max-width: 992px) {
+    .works {
+      width: 100%;
+      display: block;}
+
+      .gallerydiv{
+        display: inline;
+      }
+
+      .galleryImg {
+        width: 100%;
+        box-shadow: 1% 1% 1% 1%;
+    }
+
+  }
